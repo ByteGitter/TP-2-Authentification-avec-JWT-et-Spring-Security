@@ -97,7 +97,7 @@ Authorization: Bearer <jeton-reçu-à-la-connexion>
 
 ## Démonstration
 
-Les captures ci-dessous montrent les réponses `200 OK` obtenues lors des essais de l’inscription, de la connexion et de l’accès au profil. Le JWT de la capture de connexion et l’adresse e-mail du profil ont été masqués dans les copies incluses au dépôt.
+Les captures ci-dessous montrent les réponses `200 OK` obtenues lors des essais de l’inscription, de la connexion et de l’accès au profil. Il s’agit des données de test de la démonstration.
 
 ### Inscription réussie
 
@@ -105,11 +105,11 @@ Les captures ci-dessous montrent les réponses `200 OK` obtenues lors des essais
 
 ### Connexion et émission du JWT
 
-![Connexion réussie et jeton renvoyé — contenu du jeton masqué](docs/demo/connexion-jwt.png)
+![Connexion réussie avec des identifiants de test et jeton JWT renvoyé](docs/demo/connexion-jwt.png)
 
 ### Accès au profil authentifié
 
-![Accès réussi à la route protégée du profil — adresse e-mail masquée](docs/demo/profil-authentifie.png)
+![Accès réussi à la route protégée du profil avec le jeton de test](docs/demo/profil-authentifie.png)
 
 ## Base de données de démonstration
 
